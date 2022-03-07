@@ -1,5 +1,5 @@
 from setuptools import setup
-
+error line
 
 setup(
     # TODO: Write a globally unique name which will be listed on PyPI
