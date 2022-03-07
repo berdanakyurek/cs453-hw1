@@ -30,8 +30,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Build
-        run: |
+      - run: |
           pip install build
           python -m build
 
