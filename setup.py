@@ -1,4 +1,4 @@
-from setuptools import setupwqewqewqeqweqwewqewqe
+from setuptools import setup
 
 setup(
     # TODO: Write a globally unique name which will be listed on PyPI
