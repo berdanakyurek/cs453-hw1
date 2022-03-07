@@ -29,6 +29,7 @@ jobs:
   build-publish:
     needs: test
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' }}
     steps:
       - uses: actions/checkout@v2
 
@@ -36,4 +37,6 @@ jobs:
           pip install build
           python -m build
 
-#      - name: Publish
+      - run: |
+          sdkjfjd
+          ksdljfkjlds
