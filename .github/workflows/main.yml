@@ -20,10 +20,11 @@ jobs:
           - python-version: "3.10"
 
     steps:
-        - run: |
-            pip install -r requirements.txt
-            pip install pytest
-            pytest
+      - uses: actions/checkout@v2
+      - run: |
+          pip install -r requirements.txt
+          pip install pytest
+          pytest
 
   build-publish:
     runs-on: ubuntu-latest
